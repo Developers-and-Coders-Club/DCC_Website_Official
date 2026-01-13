@@ -1,0 +1,134 @@
+.page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 2rem;
+  background: radial-gradient(circle at center, #062c2d 0%, #000000 70%);
+  color: #ffffff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.heading {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 0 0 15px rgba(0, 194, 203, 0.8), 0 0 30px rgba(0, 194, 203, 0.4);
+}
+
+.cup {
+  color: #00C2CB;
+  margin-right: 0.5rem;
+}
+
+.container {
+  width: 90%;
+  max-width: 900px;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 0 50px rgba(0, 194, 203, 0.15);
+  background-color: rgba(0, 0, 0, 0.8);
+  border: 1px solid rgba(0, 194, 203, 0.3);
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.thead {
+  background: linear-gradient(180deg, #00C2CB, #008a91);
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.table th,
+.table td {
+  padding: 16px 20px;
+  border-bottom: 1px solid rgba(0, 194, 203, 0.1);
+}
+
+.tbodyRow {
+  background-color: rgba(0, 194, 203, 0.05);
+  transition: all 0.3s ease;
+}
+
+.evenRow {
+  background-color: rgba(0, 194, 203, 0.10);
+}
+
+.top3 {
+  font-weight: 700;
+  background: linear-gradient(90deg, #00C2CB, #008a91);
+  color: #ffffff;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.rowWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 20px;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.rowWrapper:hover {
+  transform: scale(1.02);
+  background-color: rgba(0, 194, 203, 0.15);
+  box-shadow: 0 0 20px rgba(0, 194, 203, 0.25);
+}
+
+.rankBadge {
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 50%;
+  font-weight: 700;
+  font-size: 1rem;
+  min-width: 40px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #00C2CB;
+  box-shadow: 0 0 15px rgba(0, 194, 203, 0.6);
+}
+
+.rank1 {
+  background-color: #00C2CB;
+  box-shadow: 0 0 20px #00C2CB;
+}
+
+.rank2 {
+  background-color: #00A8B0;
+  box-shadow: 0 0 15px #00A8B0;
+}
+
+.rank3 {
+  background-color: #008a91;
+  box-shadow: 0 0 15px #008a91;
+}
+
+.name {
+  flex: 1;
+  margin-left: 20px;
+  font-weight: 500;
+}
+
+.prs {
+  min-width: 50px;
+  text-align: right;
+  font-weight: 600;
+  color: #ffffff;
+  text-shadow: 0 0 5px rgba(0, 194, 203, 0.6); 
+}
+
+.top3 .prs {
+  color: #ffffff;
+  text-shadow: 0 0 8px #00C2CB, 0 0 15px #00C2CB;
+}
