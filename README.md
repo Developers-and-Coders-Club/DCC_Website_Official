@@ -137,7 +137,7 @@ dcc-nita-website1/
 │   ├── Alumni.ts
 │   └── ...
 ├── types/                   # TypeScript types
-└── tailwind.config.ts      # Tailwind configuration
+│   └── tailwind.config.ts      # Tailwind configuration
 ```
 
 ## 🎨 Design System
